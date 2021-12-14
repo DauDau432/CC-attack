@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import requests
 import socket
 import socks
