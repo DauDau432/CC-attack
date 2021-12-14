@@ -8,8 +8,6 @@ import sys
 import ssl
 import datetime
 
-
-
 print ('''
 	   /////    /////    /////////////
 	  CCCCC/   CCCCC/   | CC-attack |/
@@ -18,15 +16,20 @@ print ('''
 	 CC/////  CC/////   | ddos tool |/ 
 	  CCCCC/   CCCCC/   |___________|/
 >--------------------------------------------->
-Version 3.6 (2020/12/16)
-							 │
-├─────────────────────────────────────────────┤
-[Bạn không thể tấn công trang web chính phủ Việt Nam!]   
-© Copyright 2020 - Đậu Đậu 5.0
-Based on CC-attack by Leeon123          
-├─────────────────────────────────────────────────────┤
-Donate: paypal.me/ndbiaw - Momo: 0363608641
-[!]Không Được Tấn Công Trang Web Của Chính Phủ[!]''')
+Version 3.6 (14/12/2021)
+							
+┌────────────────────────────────────────────────────────────────────────┐
+│                        © Copyright 2021 - Đậu Đậu                      |
+├────────────────────────────────────────────────────────────────────────┤
+| YTB: https://www.youtube.com/channel/UCly-jPYF0jWZS12IdyVZqsg/featured |
+| FB: https://www.facebook.com/daudau.432/                               |
+| Page: https://www.facebook.com/groups/vpsanhem                         |
+| Zalo: 0983538806                                                       |
+├────────────────────────────────────────────────────────────────────────┤
+│ Bạn không thể tấn công trang web của chính phủ Việt Nam!               │
+├────────────────────────────────────────────────────────────────────────┤
+│ Dựa trên CC-attack của Leeon123                                        │
+└────────────────────────────────────────────────────────────────────────┘''')
 
 acceptall = [
 		"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\n",
