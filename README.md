@@ -2,8 +2,8 @@
       CCCCC/   CCCCC/   | CC-attack |/
      CC/      CC/       |-----------|/ 
      CC/      CC/       |  Layer 7  |/ 
-     CC/////  CC/////   | ddos tool |/ 
-      CCCCC/   CCCCC/   |___________|/
+      CC/////  CC/////  | ddos tool |/ 
+        CCCCC/   CCCCC/ |___________|/
 
 # CC-attack ![](https://img.shields.io/badge/Version-3.6-brightgreen.svg) ![](https://img.shields.io/badge/license-GPLv2-blue.svg)
   Một tập lệnh sử dụng các proxy 4/5 để tấn công các máy chủ http.
