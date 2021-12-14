@@ -1,24 +1,40 @@
-# cc-ddos
-Một tập lệnh Python để DDOS một trang web bằng nhiều phương pháp HTTP Flood, một trang web bình thường chỉ cần 5s để sập hoàn toàn!
-# Cách Dùng:
+       /////    /////    /////////////
+      CCCCC/   CCCCC/   | CC-attack |/
+     CC/      CC/       |-----------|/ 
+     CC/      CC/       |  Layer 7  |/ 
+     CC/////  CC/////   | ddos tool |/ 
+      CCCCC/   CCCCC/   |___________|/
 
-Tập lệnh này có thể hoạt động cả trên Windows lẫn Android (Termux), dưới đây là hướng dẫn:
+# CC-attack ![](https://img.shields.io/badge/Version-3.6-brightgreen.svg) ![](https://img.shields.io/badge/license-GPLv2-blue.svg)
+ A script for using socks4/5 proxies to attack http(s) server.
 
-```
+ News:
+- [x] Added Output Indicator
+- [x] Added Url Parser
 
-pip install requirements.txt
+ Info:
+- [x] Using Python3
+- [x] Added more human-like options
+- [x] Http Get/Head/Post/Slow Flood
+- [x] Random Http Header/Data
+- [x] Socks4/5 Proxies Downloader
+- [x] Socks4/5 Proxies Checker
+- [x] Customize Cookies
+- [x] Customize Post Data 
+- [x] Support HTTPS
+- [x] Support Socks4/5
 
-python ndbiaw.py
+## Showcase
 
-```
+![](https://i.imgur.com/hXGBnkB.png)
 
-# Quan trọng!!!
+## Install
 
-Tập lệnh này chỉ dành cho mục đích giáo dục. Tôi không chịu trách nhiệm về thiệt hại mà bạn gây ra khi sử dụng tập lệnh này!
+    pip3 install requests pysocks
+    git clone https://github.com/Leeon123/CC-attack.git
+    cd CC-attack
 
-```
+## Usage
 
-Dựa trên CC-attack của Leeon123
-
-```
-
+    python3 cc.py
+    
