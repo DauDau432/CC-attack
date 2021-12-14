@@ -6,7 +6,7 @@
       CCCCC/   CCCCC/   |___________|/
 
 # CC-attack ![](https://img.shields.io/badge/Version-3.6-brightgreen.svg) ![](https://img.shields.io/badge/license-GPLv2-blue.svg)
-  Một tập lệnh sử dụng các proxy vớ4 / 5 để tấn công (các) máy chủ http.
+  Một tập lệnh sử dụng các proxy 4/5 để tấn công các máy chủ http.
 
 Tin tức:
 - [x] Đã thêm chỉ báo đầu ra
@@ -31,7 +31,7 @@ Tin tức:
 ## Cài đặt
 
     pip3 install requests pysocks
-    git clone https://github.com/Leeon123/CC-attack.git
+    git clone https://github.com/DauDau432/CC-attack
     cd CC-attack
 
 ## Cách sử dụng
