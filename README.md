@@ -5,7 +5,7 @@
      CC/////  CC/////   | ddos tool |/ 
       CCCCC/   CCCCC/   |___________|/
 
-# CC-attack! [] (Https://img.shields.io/badge/Version-3.6-brightgreen.svg)! [] (Https://img.shields.io/badge/license-GPLv2-blue. svg)
+# CC-attack ![](https://img.shields.io/badge/Version-3.6-brightgreen.svg) ![](https://img.shields.io/badge/license-GPLv2-blue.svg)
   Một tập lệnh sử dụng các proxy vớ4 / 5 để tấn công (các) máy chủ http.
 
 Tin tức:
