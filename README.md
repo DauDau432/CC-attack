@@ -24,15 +24,15 @@ Tin tức:
 - [x] Hỗ trợ HTTPS
 - [x] Vớ hỗ trợ4 / 5
 
-## Trưng bày
+## Minh họa
 
-! [] (https://i.imgur.com/hXGBnkB.png)
+![](https://i.imgur.com/hXGBnkB.png)
 
 ## Cài đặt
 
-     pip3 yêu cầu cài đặt pysocks
-     git clone https://github.com/Leeon123/CC-attack.git
-     cd CC-attack
+    pip3 install requests pysocks
+    git clone https://github.com/Leeon123/CC-attack.git
+    cd CC-attack
 
 ## Cách sử dụng
 
