@@ -1,0 +1,339 @@
+GIẤY PHÉP CÔNG CỘNG CHUNG GNU
+                       Phiên bản 2, tháng 6 năm 1991
+
+ Bản quyền (C) 1989, 1991 Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ Mọi người đều được phép sao chép và phân phối các bản sao nguyên văn
+ của tài liệu cấp phép này, nhưng không được phép thay đổi nó.
+
+                            Mở đầu
+
+  Giấy phép cho hầu hết các phần mềm được thiết kế để lấy đi của bạn
+tự do chia sẻ và thay đổi nó. Ngược lại, GNU General Public
+Giấy phép nhằm đảm bảo quyền tự do chia sẻ và thay đổi miễn phí của bạn
+phần mềm - để đảm bảo phần mềm là miễn phí cho tất cả người dùng. Điều này
+Giấy phép Công cộng chung áp dụng cho hầu hết các Phần mềm Miễn phí
+Phần mềm của Foundation và bất kỳ chương trình nào khác mà tác giả cam kết
+sử dụng nó. (Một số phần mềm Free Software Foundation khác được bao gồm bởi
+Thay vào đó, Giấy phép Công cộng Ít hơn GNU.) Bạn có thể áp dụng nó cho
+các chương trình của bạn cũng vậy.
+
+  Khi chúng ta nói đến phần mềm miễn phí, chúng ta đang đề cập đến tự do, không phải
+giá. Giấy phép Công cộng Chung của chúng tôi được thiết kế để đảm bảo rằng bạn
+có quyền tự do phân phối các bản sao của phần mềm miễn phí (và tính phí
+dịch vụ này nếu bạn muốn), mà bạn nhận được mã nguồn hoặc có thể lấy nó
+nếu bạn muốn, bạn có thể thay đổi phần mềm hoặc sử dụng các phần của nó
+trong các chương trình miễn phí mới; và bạn biết rằng bạn có thể làm những điều này.
+
+  Để bảo vệ quyền của bạn, chúng tôi cần đưa ra các hạn chế cấm
+bất kỳ ai từ chối bạn những quyền này hoặc yêu cầu bạn từ bỏ các quyền.
+Những hạn chế này chuyển thành những trách nhiệm nhất định đối với bạn nếu bạn
+phân phối các bản sao của phần mềm, hoặc nếu bạn sửa đổi nó.
+
+  Ví dụ: nếu bạn phân phối các bản sao của một chương trình như vậy, liệu
+miễn phí hoặc có tính phí, bạn phải cung cấp cho người nhận tất cả các quyền
+bạn có. Bạn phải đảm bảo rằng họ cũng nhận được hoặc có thể lấy
+mã nguồn. Và bạn phải cho họ thấy những điều khoản này để họ biết
+các quyền.
+
+  Chúng tôi bảo vệ quyền của bạn bằng hai bước: (1) giữ bản quyền phần mềm và
+(2) cung cấp cho bạn giấy phép này, cho phép bạn sao chép hợp pháp,
+phân phối và / hoặc sửa đổi phần mềm.
+
+  Ngoài ra, để bảo vệ mỗi tác giả và của chúng tôi, chúng tôi muốn đảm bảo
+rằng mọi người đều hiểu rằng không có bảo hành nào cho điều này miễn phí
+phần mềm. Nếu phần mềm được người khác sửa đổi và chuyển giao, chúng tôi
+muốn người nhận của nó biết rằng những gì họ có không phải là bản gốc, vì vậy
+rằng bất kỳ vấn đề nào do người khác đưa ra sẽ không phản ánh đúng với bản gốc
+danh tiếng của các tác giả.
+
+  Cuối cùng, bất kỳ chương trình miễn phí nào cũng bị phần mềm đe dọa liên tục
+bằng sáng chế. Chúng tôi muốn tránh nguy cơ mà các nhà phân phối lại miễn phí
+chương trình sẽ nhận được giấy phép bằng sáng chế riêng lẻ, có hiệu lực làm cho
+chương trình độc quyền. Để ngăn chặn điều này, chúng tôi đã làm rõ rằng bất kỳ
+bằng sáng chế phải được cấp phép cho mọi người sử dụng miễn phí hoặc không được cấp phép gì cả.
+
+  Các điều khoản và điều kiện chính xác cho việc sao chép, phân phối và
+sửa đổi theo sau.
+
+                    GIẤY PHÉP CÔNG CỘNG CHUNG GNU
+   ĐIỀU KHOẢN VÀ ĐIỀU KIỆN ĐỂ SAO CHÉP, PHÂN PHỐI VÀ SỬA ĐỔI
+
+  0. Giấy phép này áp dụng cho bất kỳ chương trình hoặc công việc nào khác có
+một thông báo do chủ sở hữu bản quyền đưa ra nói rằng nó có thể được phân phối
+theo các điều khoản của Giấy phép Công cộng này. "Chương trình", bên dưới,
+đề cập đến bất kỳ chương trình hoặc công việc nào như vậy và "công việc dựa trên Chương trình"
+có nghĩa là Chương trình hoặc bất kỳ tác phẩm phái sinh nào theo luật bản quyền:
+nghĩa là một tác phẩm có chứa Chương trình hoặc một phần của nó,
+hoặc nguyên văn hoặc có sửa đổi và / hoặc dịch sang một
+ngôn ngữ. (Sau đây, bản dịch được bao gồm nhưng không giới hạn trong
+thuật ngữ "sửa đổi".) Mỗi ​​người được cấp phép được gọi là "bạn".
+
+Các hoạt động ngoài sao chép, phân phối và sửa đổi không
+được bao phủ bởi Giấy phép này; chúng nằm ngoài phạm vi của nó. Hành động của
+chạy Chương trình không bị hạn chế và đầu ra từ Chương trình
+chỉ được đề cập nếu nội dung của nó tạo thành một tác phẩm dựa trên
+Chương trình (không phụ thuộc vào việc đã được thực hiện bằng cách chạy Chương trình).
+Điều đó có đúng hay không phụ thuộc vào những gì Chương trình thực hiện.
+
+  1. Bạn có thể sao chép và phân phối các bản sao nguyên văn của Chương trình
+mã nguồn khi bạn nhận được, trong bất kỳ phương tiện nào, với điều kiện là bạn
+công bố rõ ràng và thích hợp trên mỗi bản sao một
+thông báo bản quyền và từ chối bảo hành; giữ nguyên vẹn tất cả
+các thông báo đề cập đến Giấy phép này và không có bất kỳ bảo hành nào;
+và cung cấp cho bất kỳ người nhận Chương trình nào khác bản sao của Giấy phép này
+cùng với Chương trình.
+
+Bạn có thể tính phí cho hành động thực tế là chuyển một bản sao, và
+bạn có thể tùy chọn cung cấp bảo vệ bảo hành để đổi lấy một khoản phí.
+
+  2. Bạn có thể sửa đổi bản sao của mình hoặc các bản sao của Chương trình hoặc bất kỳ phần nào
+của nó, do đó tạo thành một tác phẩm dựa trên Chương trình, và sao chép và
+phân phối các sửa đổi đó hoặc làm việc theo các điều khoản của Phần 1
+ở trên, với điều kiện bạn cũng đáp ứng tất cả các điều kiện sau:
+
+    a) Bạn phải làm cho các tệp đã sửa đổi mang các thông báo nổi bật
+    nói rằng bạn đã thay đổi các tệp và ngày của bất kỳ thay đổi nào.
+
+    b) Bạn phải tạo ra bất kỳ tác phẩm nào mà bạn phân phối hoặc xuất bản,
+    toàn bộ hoặc một phần chứa hoặc có nguồn gốc từ Chương trình hoặc bất kỳ
+    một phần của chúng, được cấp phép toàn bộ miễn phí cho tất cả phần ba
+    các bên theo các điều khoản của Giấy phép này.
+
+    c) Nếu chương trình đã sửa đổi thường đọc các lệnh một cách tương tác
+    khi chạy, bạn phải gây ra nó, khi bắt đầu chạy cho như vậy
+    sử dụng tương tác theo cách thông thường nhất, để in hoặc hiển thị
+    thông báo bao gồm một thông báo bản quyền thích hợp và một
+    thông báo rằng không có bảo hành (hoặc người khác, nói rằng bạn cung cấp
+    bảo hành) và người dùng có thể phân phối lại chương trình theo
+    các điều kiện này và cho người dùng biết cách xem bản sao của điều này
+    Giấy phép. (Ngoại lệ: nếu bản thân Chương trình tương tác nhưng
+    thường không in một thông báo như vậy, công việc của bạn dựa trên
+    Chương trình không bắt buộc phải in thông báo.)
+
+Những yêu cầu này áp dụng cho toàn bộ công việc được sửa đổi. Nếu như
+các phần có thể nhận dạng của công việc đó không bắt nguồn từ Chương trình,
+và có thể được coi là các công trình độc lập và riêng biệt một cách hợp lý trong
+bản thân chúng, sau đó Giấy phép này và các điều khoản của nó, không áp dụng cho những
+khi bạn phân phối chúng dưới dạng các tác phẩm riêng biệt. Nhưng khi bạn
+phân phối các phần giống như một phần của tổng thể là một tác phẩm dựa trên
+trong Chương trình, việc phân phối toàn bộ phải theo các điều kiện của
+Giấy phép này, có quyền đối với những người được cấp phép khác mở rộng đến
+toàn bộ toàn bộ, và do đó cho từng và mọi phần bất kể ai đã viết nó.
+
+Do đó, mục này không phải nhằm mục đích yêu cầu quyền hoặc tranh chấp
+quyền của bạn để làm việc hoàn toàn do bạn viết; đúng hơn, mục đích là
+thực hiện quyền kiểm soát việc phân phối sản phẩm phái sinh hoặc
+các tác phẩm tập thể dựa trên Chương trình.
+
+Ngoài ra, chỉ là tổng hợp của một công việc khác không dựa trên Chương trình
+với Chương trình (hoặc với một tác phẩm dựa trên Chương trình) trên một khối lượng
+một phương tiện lưu trữ hoặc phân phối không mang lại công việc khác
+phạm vi của Giấy phép này.
+
+  3. Bạn có thể sao chép và phân phối Chương trình (hoặc một tác phẩm dựa trên nó,
+theo Phần 2) ở dạng mã đối tượng hoặc dạng thực thi theo các điều khoản của
+Phần 1 và 2 ở trên với điều kiện bạn cũng thực hiện một trong các thao tác sau:
+
+    a) Kèm theo nó với toàn bộ máy tương ứng có thể đọc được
+    mã nguồn, phải được phân phối theo các điều khoản của Phần
+    1 và 2 ở trên trên một phương tiện thường được sử dụng để trao đổi phần mềm; hoặc là,
+
+    b) Kèm theo lời đề nghị bằng văn bản, có giá trị ít nhất ba
+    năm, để cung cấp cho bất kỳ bên thứ ba nào, với khoản phí không quá
+    chi phí phân phối nguồn thực hiện vật lý, một
+    bản sao có thể đọc được bằng máy của mã nguồn tương ứng, được
+    được phân phối theo các điều khoản của Phần 1 và 2 ở trên trên một phương tiện
+    thường được sử dụng để trao đổi phần mềm; hoặc là,
+
+    c) Kèm theo nó với thông tin bạn nhận được về đề nghị
+    để phân phối mã nguồn tương ứng. (Thay thế này là
+    chỉ được phép phân phối phi thương mại và chỉ khi bạn
+    đã nhận được chương trình ở dạng mã đối tượng hoặc dạng thực thi với
+    một đề nghị, phù hợp với Tiểu mục b ở trên.)
+
+Mã nguồn của một tác phẩm có nghĩa là hình thức ưu tiên của tác phẩm đối với
+sửa đổi nó. Đối với một công việc có thể thực thi, hãy hoàn thành nguồn
+mã có nghĩa là tất cả mã nguồn cho tất cả các mô-đun mà nó chứa, cộng với bất kỳ
+các tệp định nghĩa giao diện được liên kết, cộng với các tập lệnh được sử dụng để
+kiểm soát quá trình biên dịch và cài đặt tệp thực thi. Tuy nhiên, với tư cách là
+ngoại lệ đặc biệt, mã nguồn được phân phối không cần bao gồm
+bất kỳ thứ gì được phân phối bình thường (trong nguồn hoặc nhị phân
+biểu mẫu) với các thành phần chính (trình biên dịch, hạt nhân, v.v.) của
+hệ điều hành mà tệp thực thi chạy trên đó, trừ khi thành phần đó
+bản thân nó đi kèm với tệp thực thi.
+
+Nếu việc phân phối mã thực thi hoặc mã đối tượng được thực hiện bằng cách cung cấp
+quyền truy cập để sao chép từ một nơi được chỉ định, sau đó cung cấp
+quyền truy cập để sao chép mã nguồn từ cùng một nơi được tính là
+phân phối mã nguồn, mặc dù các bên thứ ba không
+buộc phải sao chép nguồn cùng với mã đối tượng.
+
+  4. Bạn không được sao chép, sửa đổi, cấp phép con hoặc phân phối Chương trình
+ngoại trừ được cung cấp rõ ràng theo Giấy phép này. Mọi nỗ lực
+nếu không để sao chép, sửa đổi, cấp phép phụ hoặc phân phối Chương trình là
+vô hiệu, và sẽ tự động chấm dứt quyền của bạn theo Giấy phép này.
+Tuy nhiên, các bên đã nhận bản sao hoặc quyền từ bạn theo
+Giấy phép này sẽ không có giấy phép của họ bị chấm dứt lâu như vậy
+các bên vẫn tuân thủ đầy đủ.
+
+  5. Bạn không bắt buộc phải chấp nhận Giấy phép này, vì bạn không
+Ký nó. Tuy nhiên, không có gì khác cấp cho bạn quyền sửa đổi hoặc
+phân phối Chương trình hoặc các sản phẩm phái sinh của nó. Những hành động này là
+bị pháp luật cấm nếu bạn không chấp nhận Giấy phép này. Do đó, bằng cách
+sửa đổi hoặc phân phối Chương trình (hoặc bất kỳ công việc nào dựa trên
+Chương trình), bạn cho biết bạn chấp nhận Giấy phép này để làm như vậy, và
+tất cả các điều khoản và điều kiện của nó để sao chép, phân phối hoặc sửa đổi
+Chương trình hoặc hoạt động dựa trên nó.
+
+  6. Mỗi lần bạn phân phối lại Chương trình (hoặc bất kỳ công việc nào dựa trên
+Chương trình), người nhận sẽ tự động nhận được giấy phép từ
+người cấp phép ban đầu để sao chép, phân phối hoặc sửa đổi Chương trình theo
+các điều khoản và điều kiện này. Bạn không thể áp đặt thêm
+hạn chế đối với việc người nhận thực hiện các quyền được cấp ở đây.
+Bạn không chịu trách nhiệm thực thi sự tuân thủ của các bên thứ ba đối với
+Giấy phép này.
+
+  7. Nếu, do hậu quả của phán quyết của tòa án hoặc cáo buộc về bằng sáng chế
+vi phạm hoặc vì bất kỳ lý do nào khác (không giới hạn ở các vấn đề bằng sáng chế),
+các điều kiện được áp dụng cho bạn (cho dù theo lệnh tòa, thỏa thuận hay
+nếu không) mâu thuẫn với các điều kiện của Giấy phép này, họ không
+xin lỗi bạn khỏi các điều kiện của Giấy phép này. Nếu bạn không thể
+phân phối để đáp ứng đồng thời các nghĩa vụ của bạn theo điều này
+Giấy phép và bất kỳ nghĩa vụ thích hợp nào khác, do đó bạn
+có thể hoàn toàn không phân phối Chương trình. Ví dụ, nếu bằng sáng chế
+giấy phép sẽ không cho phép phân phối lại Chương trình miễn phí bản quyền bởi
+tất cả những người nhận bản sao trực tiếp hoặc gián tiếp thông qua bạn, sau đó
+cách duy nhất bạn có thể đáp ứng cả hai điều đó và Giấy phép này sẽ là
+hoàn toàn không phân phối Chương trình.
+
+Nếu bất kỳ phần nào của phần này không hợp lệ hoặc không thể thực thi theo
+bất kỳ trường hợp cụ thể nào, sự cân bằng của phần này nhằm mục đích
+áp dụng và toàn bộ phần này được dự định áp dụng trong
+trường hợp.
+
+Mục đích của phần này không phải là để khiến bạn vi phạm bất kỳ
+bằng sáng chế hoặc các tuyên bố về quyền tài sản khác hoặc tranh chấp tính hợp lệ của bất kỳ
+tuyên bố như vậy; phần này có mục đích duy nhất là bảo vệ
+tính toàn vẹn của hệ thống phân phối phần mềm miễn phí, đó là
+được thực hiện bởi các thông lệ giấy phép công cộng. Nhiều người đã làm
+đóng góp hào phóng cho nhiều loại phần mềm được phân phối
+thông qua hệ thống đó dựa trên việc áp dụng nhất quán
+hệ thống; tác giả / nhà tài trợ quyết định xem họ có sẵn sàng hay không
+phân phối phần mềm thông qua bất kỳ hệ thống nào khác và người được cấp phép không thể
+áp đặt sự lựa chọn đó.
+
+Phần này nhằm mục đích làm rõ ràng những gì được cho là
+là hệ quả của phần còn lại của Giấy phép này.
+
+  8. Nếu việc phân phối và / hoặc sử dụng Chương trình bị hạn chế trong
+một số quốc gia nhất định bằng sáng chế hoặc bằng giao diện có bản quyền,
+chủ sở hữu bản quyền ban đầu đặt Chương trình theo Giấy phép này
+có thể thêm giới hạn phân phối theo địa lý rõ ràng, ngoại trừ
+các quốc gia đó, vì vậy việc phân phối đó chỉ được phép trong hoặc giữa các quốc gia
+các quốc gia không bị loại trừ do đó. Trong trường hợp đó, Giấy phép này kết hợp
+giới hạn như được ghi trong phần nội dung của Giấy phép này.
+
+  9. Tổ chức Phần mềm Tự do có thể xuất bản các phiên bản sửa đổi và / hoặc mới
+của Giấy phép Công cộng tại từng thời điểm. Những phiên bản mới như vậy sẽ
+về tinh thần tương tự như phiên bản hiện tại, nhưng có thể khác về chi tiết
+giải quyết các vấn đề hoặc mối quan tâm mới.
+
+Mỗi phiên bản được gán một số phiên bản riêng. Nếu chương trình
+chỉ định số phiên bản của Giấy phép này áp dụng cho nó và "bất kỳ
+phiên bản sau ", bạn có tùy chọn tuân theo các điều khoản và điều kiện
+một trong hai phiên bản đó hoặc bất kỳ phiên bản nào mới hơn được xuất bản bởi Free
+Tổ chức phần mềm. Nếu Chương trình không chỉ định số phiên bản của
+Giấy phép này, bạn có thể chọn bất kỳ phiên bản nào từng được Phần mềm Miễn phí xuất bản
+Sự thành lập.
+
+  10. Nếu bạn muốn kết hợp các phần của Chương trình vào các phần miễn phí khác
+các chương trình có điều kiện phân phối khác nhau, hãy viết thư cho tác giả
+Để xin phép. Đối với phần mềm có bản quyền của Miễn phí
+Tổ chức Phần mềm, viết thư cho Tổ chức Phần mềm Tự do; đôi khi chúng ta
+tạo ngoại lệ cho điều này. Quyết định của chúng tôi sẽ được dẫn dắt bởi hai mục tiêu
+duy trì trạng thái tự do của tất cả các dẫn xuất của phần mềm miễn phí của chúng tôi và
+thúc đẩy việc chia sẻ và sử dụng lại phần mềm nói chung.
+
+                            KHÔNG BẢO HÀNH
+                            
+                            11. VÌ CHƯƠNG TRÌNH ĐƯỢC CẤP PHÉP MIỄN PHÍ, KHÔNG CÓ BẢO HÀNH
+ĐỐI VỚI CHƯƠNG TRÌNH, ĐỐI VỚI PHẠM VI ĐƯỢC PHÁP LUẬT HIỆN HÀNH CHO PHÉP. NGOẠI TRỪ KHI
+LỜI NÓI KHÁC KHI VIẾT CHỦ BẢN QUYỀN VÀ / HOẶC CÁC BÊN KHÁC
+CUNG CẤP CHƯƠNG TRÌNH "NGUYÊN TRẠNG" KHÔNG BẢO ĐẢM BẤT KỲ HÌNH THỨC NÀO, ĐƯỢC THỂ HIỆN
+HOẶC NGỤ Ý, BAO GỒM, NHƯNG KHÔNG GIỚI HẠN ĐỐI VỚI, CÁC BẢO ĐẢM ĐƯỢC NGỤ Ý CỦA
+KHẢ NĂNG LẬP TỨC VÀ PHÙ HỢP VỚI MỤC ĐÍCH CỤ THỂ. TOÀN BỘ RỦI RO NHƯ
+ĐẾN CHẤT LƯỢNG VÀ HIỆU QUẢ CỦA CHƯƠNG TRÌNH LÀ CÙNG BẠN. NÊN
+CHƯƠNG TRÌNH CUNG CẤP QUYỀN HẠN, BẠN HẤP DẪN CHI PHÍ CỦA TẤT CẢ CÁC DỊCH VỤ CẦN THIẾT,
+SỬA CHỮA HOẶC CHỈNH SỬA.
+
+  12. KHÔNG CÓ SỰ KIỆN KHÔNG ĐƯỢC YÊU CẦU CỦA LUẬT ÁP DỤNG HOẶC ĐỒNG Ý KHI VIẾT
+SẼ BẤT KỲ CHỦ NHÂN BẢN QUYỀN NÀO HOẶC BẤT KỲ BÊN KHÁC CÓ THỂ SỬA ĐỔI VÀ / HOẶC
+ĐĂNG KÝ LẠI CHƯƠNG TRÌNH NHƯ ĐƯỢC PHÉP TRÊN, CHỊU TRÁCH NHIỆM VỚI BẠN VỀ THIỆT HẠI,
+BAO GỒM BẤT KỲ THIỆT HẠI CHUNG, ĐẶC BIỆT, SỰ CỐ HOẶC HẬU QUẢ NÀO PHÁT SINH
+NGOÀI VIỆC SỬ DỤNG HOẶC KHÔNG CÓ KHẢ NĂNG SỬ DỤNG CHƯƠNG TRÌNH (BAO GỒM NHƯNG KHÔNG GIỚI HẠN
+MẤT DỮ LIỆU HOẶC DỮ LIỆU ĐƯỢC HIỂU KHÔNG CHÍNH XÁC HOẶC MẤT LỖI BỞI
+BẠN HOẶC BÊN THỨ BA HOẶC BẤT KỲ CHƯƠNG TRÌNH ĐỂ HOẠT ĐỘNG VỚI BẤT KỲ NGƯỜI KHÁC
+CHƯƠNG TRÌNH), NGAY LẬP TỨC NẾU CHỦ SỞ HỮU HOẶC BÊN KHÁC ĐƯỢC TƯ VẤN VỀ
+KHẢ NĂNG XẢY RA CÁC THIỆT HẠI NHƯ VẬY.
+
+                     KẾT THÚC ĐIỀU KHOẢN VÀ ĐIỀU KIỆN
+
+            Cách áp dụng các điều khoản này cho các chương trình mới của bạn
+
+  Nếu bạn phát triển một chương trình mới và bạn muốn nó là chương trình tuyệt vời nhất
+có thể sử dụng cho công chúng, cách tốt nhất để đạt được điều này là làm cho nó
+phần mềm miễn phí mà mọi người có thể phân phối lại và thay đổi theo các điều khoản này.
+
+  Để làm như vậy, hãy đính kèm các thông báo sau vào chương trình. Nó là an toàn nhất
+để đính kèm chúng vào đầu mỗi tệp nguồn sao cho hiệu quả nhất
+chuyển tải việc loại trừ bảo hành; và mỗi tệp phải có ít nhất
+dòng "bản quyền" và một con trỏ đến nơi tìm thấy thông báo đầy đủ.
+
+    <một dòng để cung cấp tên của chương trình và ý tưởng ngắn gọn về chức năng của nó.>
+    Bản quyền (C) <năm> <tên tác giả>
+
+    Chương trình này là phần mềm miễn phí; bạn có thể phân phối lại nó và / hoặc sửa đổi
+    nó theo các điều khoản của Giấy phép Công cộng GNU như được xuất bản bởi
+    Quỹ Phần mềm Tự do; hoặc phiên bản 2 của Giấy phép hoặc
+    (theo tùy chọn của bạn) bất kỳ phiên bản nào sau này.
+
+    Chương trình này được phân phối với hy vọng rằng nó sẽ hữu ích,
+    nhưng KHÔNG CÓ BẤT KỲ BẢO HÀNH NÀO; mà không có bảo hành ngụ ý
+    KHẢ NĂNG LẬP TỨC hoặc PHÙ HỢP VỚI MỤC ĐÍCH CỤ THỂ. Xem
+    Giấy phép Công cộng GNU để biết thêm chi tiết.
+
+    Bạn sẽ nhận được một bản sao của Giấy phép Công cộng GNU cùng với
+    với chương trình này; nếu không, hãy viết thư cho Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+    
+    Đồng thời thêm thông tin về cách liên hệ với bạn bằng thư điện tử và thư giấy.
+
+Nếu chương trình có tính tương tác, hãy làm cho nó xuất ra một thông báo ngắn như thế này
+khi nó bắt đầu ở chế độ tương tác:
+
+    Gnomovision phiên bản 69, Bản quyền (C) tên năm của tác giả
+    Gnomovision đi kèm với TUYỆT ĐỐI KHÔNG CÓ BẢO HÀNH; để biết thông tin chi tiết, hãy nhập `show w '.
+    Đây là phần mềm miễn phí và bạn có thể phân phối lại nó
+    dưới một số điều kiện nhất định; gõ `show c 'để biết chi tiết.
+
+Các lệnh giả định `` show w '' và `` show c '' nên hiển thị
+các phần của Giấy phép Công cộng. Tất nhiên, các lệnh bạn sử dụng có thể
+được gọi là một cái gì đó khác với `` show w '' và `` show c ''; họ thậm chí có thể
+nhấp chuột hoặc các mục menu - bất cứ thứ gì phù hợp với chương trình của bạn.
+
+Bạn cũng nên tìm người sử dụng lao động của mình (nếu bạn làm việc với tư cách là một lập trình viên) hoặc
+trường học, nếu có, để ký "tuyên bố từ chối trách nhiệm bản quyền" cho chương trình, nếu
+cần thiết. Đây là một mẫu; thay đổi tên:
+
+  Yoyodyne, Inc., từ chối mọi quyền lợi về bản quyền đối với chương trình
+  Cuốn sách `` Gnomovision '' được viết bởi James Hacker.
+
+  <chữ ký của Ty Coon>, ngày 1 tháng 4 năm 1989
+  Ty Coon, Chủ tịch Vice
+
+Giấy phép Công cộng Chung này không cho phép kết hợp chương trình của bạn vào
+các chương trình độc quyền. Nếu chương trình của bạn là một thư viện chương trình con, bạn có thể
+coi việc cho phép liên kết các ứng dụng độc quyền với
+thư viện. Nếu đây là điều bạn muốn làm, hãy sử dụng GNU Lesser General
+Giấy phép Công cộng thay cho Giấy phép này.
