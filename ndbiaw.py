@@ -170,7 +170,7 @@ def ParseUrl(original_url):
 	global protocol
 	original_url = original_url.strip()
 	url = ""
-	path = "/"default value
+	path = "/"#default value
 	port = 80 default value
 	protocol = "http"
 	http(s)://www.example.com:1337/xxx
