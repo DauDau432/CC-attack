@@ -36,4 +36,4 @@ Tin tức:
 
 ## Cách sử dụng
 
-     python3 cc.py
+    python3 cc.py
