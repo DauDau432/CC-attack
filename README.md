@@ -5,36 +5,35 @@
      CC/////  CC/////   | ddos tool |/ 
       CCCCC/   CCCCC/   |___________|/
 
-# CC-attack ![](https://img.shields.io/badge/Version-3.6-brightgreen.svg) ![](https://img.shields.io/badge/license-GPLv2-blue.svg)
- A script for using socks4/5 proxies to attack http(s) server.
+# CC-attack! [] (Https://img.shields.io/badge/Version-3.6-brightgreen.svg)! [] (Https://img.shields.io/badge/license-GPLv2-blue. svg)
+  Một tập lệnh sử dụng các proxy vớ4 / 5 để tấn công (các) máy chủ http.
 
- News:
-- [x] Added Output Indicator
-- [x] Added Url Parser
+Tin tức:
+- [x] Đã thêm chỉ báo đầu ra
+- [x] Đã thêm trình phân tích cú pháp Url
 
- Info:
-- [x] Using Python3
-- [x] Added more human-like options
-- [x] Http Get/Head/Post/Slow Flood
-- [x] Random Http Header/Data
-- [x] Socks4/5 Proxies Downloader
-- [x] Socks4/5 Proxies Checker
-- [x] Customize Cookies
-- [x] Customize Post Data 
-- [x] Support HTTPS
-- [x] Support Socks4/5
+  Thông tin:
+- [x] Sử dụng Python3
+- [x] Đã thêm nhiều tùy chọn giống người hơn
+- [x] Http Get / Head / Post / Slow Flood
+- [x] Tiêu đề / Dữ liệu Http Ngẫu nhiên
+- [x] Socks4 / 5 Proxies Downloader
+- [x] Socks4 / 5 Proxy Checker
+- [x] Tùy chỉnh Cookie
+- [x] Tùy chỉnh dữ liệu bài đăng
+- [x] Hỗ trợ HTTPS
+- [x] Vớ hỗ trợ4 / 5
 
-## Showcase
+## Trưng bày
 
-![](https://i.imgur.com/hXGBnkB.png)
+! [] (https://i.imgur.com/hXGBnkB.png)
 
-## Install
+## Cài đặt
 
-    pip3 install requests pysocks
-    git clone https://github.com/Leeon123/CC-attack.git
-    cd CC-attack
+     pip3 yêu cầu cài đặt pysocks
+     git clone https://github.com/Leeon123/CC-attack.git
+     cd CC-attack
 
-## Usage
+## Cách sử dụng
 
-    python3 cc.py
-    
+     python3 cc.py
