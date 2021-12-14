@@ -8,7 +8,7 @@ import sys
 import ssl
 import datetime
 
-print (
+print ('''
 >------------------------------------------------------------------------>
 |                                                                        |
 |	            /////    /////     /////////////                     |
@@ -29,7 +29,7 @@ print (
 │ Bạn không thể tấn công trang web của chính phủ Việt Nam!               │
 ├────────────────────────────────────────────────────────────────────────┤
 │ Dựa trên CC-attack của Leeon123                                        │
-└────────────────────────────────────────────────────────────────────────┘)
+└────────────────────────────────────────────────────────────────────────┘''')
 
 acceptall = [
 		"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\n",
