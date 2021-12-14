@@ -9,22 +9,22 @@ import ssl
 import datetime
 
 print ('''
->------------------------------------------------------------------------>
-|                                                                        |
-|	            /////    /////     /////////////                     |
-|	           CCCCC/   CCCCC/    | CC-attack |/                     |
-|	          CC/      CC/        |-----------|/                     |
-|	          CC/      CC/        |  Layer 7  |/                     |
-|	           CC/////  CC/////   | ddos tool |/                     |
-|	            CCCCC/   CCCCC/   |___________|/                     |
-|			                                                 |
-┌────────────────────────────────────────────────────────────────────────┐
-│ © Copyright 2021 - Đậu Đậu - Version 3.6 (14/12/2021)                  |
 ├────────────────────────────────────────────────────────────────────────┤
-| YTB: https://www.youtube.com/channel/UCly-jPYF0jWZS12IdyVZqsg/featured |
-| FB: https://www.facebook.com/daudau.432/                               |
-| Page: https://www.facebook.com/groups/vpsanhem                         |
-| Zalo: 0983538806                                                       |
+│                                                                        │
+│	            /////    /////     /////////////                     │
+│	           CCCCC/   CCCCC/    | CC-attack |/                     │
+│	          CC/      CC/        |-----------|/                     │
+│	          CC/      CC/        |  Layer 7  |/                     │
+│	           CC/////  CC/////   | ddos tool |/                     │
+│	            CCCCC/   CCCCC/   |___________|/                     │
+│			                                                 │
+├────────────────────────────────────────────────────────────────────────┤
+│ © Copyright 2021 - Đậu Đậu - Version 3.6 (14/12/2021)                  │
+├────────────────────────────────────────────────────────────────────────┤
+│ YTB: https://www.youtube.com/channel/UCly-jPYF0jWZS12IdyVZqsg/featured │
+│ FB: https://www.facebook.com/daudau.432/                               │
+│ Page: https://www.facebook.com/groups/vpsanhem                         │
+│ Zalo: 0983538806                                                       │
 ├────────────────────────────────────────────────────────────────────────┤
 │ Bạn không thể tấn công trang web của chính phủ Việt Nam!               │
 ├────────────────────────────────────────────────────────────────────────┤
