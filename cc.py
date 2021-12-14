@@ -8,8 +8,9 @@ import threading
 import sys
 import ssl
 import datetime
-clear
+
 print ('''
+clear
 ┌────────────────────────────────────────────────────────────────────────┐
 │                                                                        │
 │	            /////    /////     /////////////                     │
