@@ -22,7 +22,7 @@ Version 3.6 (2020/12/16)
 							 │
 ├─────────────────────────────────────────────┤
 [Bạn không thể tấn công trang web chính phủ Việt Nam!]   
-© Copyright 2020 - Nguyễn Duy Bách (ndbiaw)
+© Copyright 2020 - Đậu Đậu 5.0
 Based on CC-attack by Leeon123          
 ├─────────────────────────────────────────────────────┤
 Donate: paypal.me/ndbiaw - Momo: 0363608641
