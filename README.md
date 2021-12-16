@@ -24,16 +24,16 @@ Tin tức:
 - [x] Hỗ trợ HTTPS
 - [x] Vớ hỗ trợ4 / 5
 
-## Minh họa
+# Minh họa
 
 ![](https://i.imgur.com/hXGBnkB.png)
 
-## Cài đặt
+# Cài đặt
 
     pip3 install requests pysocks
     git clone https://github.com/DauDau432/CC-attack
     cd CC-attack
 
-## Cách sử dụng
+# Cách sử dụng
 
     python3 cc.py
