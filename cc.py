@@ -9,6 +9,8 @@ import sys
 import ssl
 import datetime
 
+dict1.clear()
+
 print ('''
 
 ┌────────────────────────────────────────────────────────────────────────┐
