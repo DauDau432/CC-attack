@@ -22,7 +22,7 @@ Tin tức:
 - [x] Tùy chỉnh Cookie
 - [x] Tùy chỉnh dữ liệu bài đăng
 - [x] Hỗ trợ HTTPS
-- [x] Vớ hỗ trợ4 / 5
+- [x] hỗ trợ 4/5
 
 # Minh họa
 
