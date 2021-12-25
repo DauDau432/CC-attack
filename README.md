@@ -8,7 +8,7 @@
 # CC-attack ![](https://img.shields.io/badge/Version-3.6-brightgreen.svg) ![](https://img.shields.io/badge/license-GPLv2-blue.svg)
   Một tập lệnh sử dụng các proxy 4/5 để tấn công các máy chủ http.
 
-Tin tức:
+  Tin tức:
 - [x] Đã thêm chỉ báo đầu ra
 - [x] Đã thêm trình phân tích cú pháp Url
 
