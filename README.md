@@ -11,7 +11,7 @@
   Tin tức:
 - [x] Đã thêm chỉ báo đầu ra
 - [x] Đã thêm trình phân tích cú pháp Url
-
+  
   Thông tin:
 - [x] Sử dụng Python3
 - [x] Đã thêm nhiều tùy chọn giống người hơn
