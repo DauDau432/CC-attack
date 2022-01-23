@@ -28,7 +28,7 @@ print ('''
 │ Page: https://www.facebook.com/groups/vpsanhem                         │
 │ Zalo: 0983538806                                                       │
 ├────────────────────────────────────────────────────────────────────────┤
-│ Bạn không thể tấn công trang web của chính phủ Việt Nam!               │
+│ Bạn không thể tấn công trang web của người khác nếu không có sự đồng ý !               │
 ├────────────────────────────────────────────────────────────────────────┤
 │ Dựa trên CC-attack của Leeon123                                        │
 └────────────────────────────────────────────────────────────────────────┘''')
