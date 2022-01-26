@@ -647,7 +647,7 @@ def main():
 	global brute
 	global url
 	print("> Mode: [cc/post/head/slow/check]")
-	mode = InputOption("> Chọn chế độ (mặc định = cc) :",["cc","post","head","slow","check"],"cc")
+	mode = InputOption("> Chọn chế độ (mặc định = cc): ",["cc","post","head","slow","check"],"cc")
 	url = str(input("> Nhập link tới trang mục tiêu: ")).strip()
 	prevent()
 	ParseUrl(url)
