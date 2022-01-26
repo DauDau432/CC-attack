@@ -5,7 +5,9 @@
       CC/////  CC/////  | ddos tool |/ 
        CCCCC/   CCCCC/  |___________|/
 
-# CC-attack ![](https://img.shields.io/badge/Version-3.6-brightgreen.svg) ![](https://img.shields.io/badge/license-GPLv2-blue.svg)
+# CC-attack 
+![](https://img.shields.io/badge/Version-3.6-brightgreen.svg) ![](https://img.shields.io/badge/license-GPLv2-blue.svg)
+
   Một tập lệnh sử dụng các proxy 4/5 để tấn công các máy chủ http.
 
   Tin tức:
@@ -24,16 +26,25 @@
 - [x] Hỗ trợ HTTPS
 - [x] hỗ trợ 4/5
 
-# Minh họa
+## Minh họa
 
 ![](https://i.imgur.com/hXGBnkB.png)
 
-# Cài đặt
-
-    pip3 install requests pysocks
-    git clone https://github.com/DauDau432/CC-attack
-    cd CC-attack
-
-# Cách sử dụng
-
-    python3 cc.py
+## Cài đặt
+Để sử dụng nó, bạn phải sử dụng python3 và bạn cũng cần một module bổ sung
+```
+pip3 install requests pysocks
+```    
+Tải kho lưu trữ xuống 
+```
+git clone https://github.com/DauDau432/CC-attack
+```
+Di chuyển vào thư mục
+```
+cd CC-attack
+```
+## Cách sử dụng
+Chỉ cần nhập vào một thiết bị đầu cuối:
+```
+python3 cc.py
+```
