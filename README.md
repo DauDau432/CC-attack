@@ -48,3 +48,5 @@ Chỉ cần nhập vào một thiết bị đầu cuối:
 ```
 python3 cc.py
 ```
+## Video demo 
+[Tại đây](https://www.facebook.com/100028973615065/videos/3300158296775119/)
