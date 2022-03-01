@@ -39,10 +39,6 @@ Tải kho lưu trữ xuống
 ```
 git clone https://github.com/DauDau432/CC-attack
 ```
-Di chuyển vào thư mục
-```
-cd CC-attack
-```
 ## Cách sử dụng
 Chỉ cần nhập vào một thiết bị đầu cuối:
 ```
