@@ -31,14 +31,14 @@
 ![](https://i.imgur.com/hXGBnkB.png)
 
 ## Cài đặt
-Để sử dụng nó, bạn phải sử dụng python3 và bạn cũng cần một module bổ sung
-```
-pip3 install requests pysocks
-```    
 Tải kho lưu trữ xuống 
 ```
 git clone https://github.com/DauDau432/CC-attack
 ```
+Để sử dụng nó, bạn phải sử dụng python3 và bạn cũng cần một module bổ sung
+```
+pip3 install requests pysocks
+```    
 ## Cách sử dụng
 Chỉ cần nhập vào một thiết bị đầu cuối:
 ```
