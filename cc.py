@@ -25,10 +25,11 @@ print ('''
 ├────────────────────────────────────────────────────────────────────────┤
 │ YTB: https://www.youtube.com/channel/UCly-jPYF0jWZS12IdyVZqsg/featured │
 │ FB: https://www.facebook.com/daudau.432/                               │
-│ Page: https://www.facebook.com/groups/vpsanhem                         │
+│ Github: https://github.com/DauDau432/                                  │
+│ Gmail: aulax432@gmail.com                                              │
 │ Zalo: 0983538806                                                       │
 ├────────────────────────────────────────────────────────────────────────┤
-│ Bạn không thể tấn công trang web của người khác nếu không có sự đồng ý !               │
+│ Bạn không thể tấn công trang web của người khác nếu không có sự đồng ý!│
 ├────────────────────────────────────────────────────────────────────────┤
 │ Dựa trên CC-attack của Leeon123                                        │
 └────────────────────────────────────────────────────────────────────────┘''')
