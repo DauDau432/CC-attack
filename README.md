@@ -46,3 +46,5 @@ python3 cc.py
 ```
 ## Video demo 
 [Tại đây](https://www.facebook.com/100028973615065/videos/3300158296775119/)
+## Nguồn tác giả 
+[Leeon123](https://github.com/Leeon123/CC-attack)
